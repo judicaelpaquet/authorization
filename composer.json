@@ -1,0 +1,33 @@
+{
+  "name" : "judicaelpaquet/authorization",
+  "description" : "A authorization bundle annotation",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Judicaël Paquet",
+    "email" : "judicael.paquet@batiwiz.com"
+  }],
+  "keywords" : [
+    "authorization bundle annotation"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+    "php": ">=7.0.0",
+    "doctrine/annotations": "1.2.6",
+    "symfony/symfony": ">=3.0.0"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "judicaelpaquet\\AuthorizationBundle" : ""
+    }
+  },
+  "target-dir" : "judicaelpaquet/AuthorizationBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "some_version-dev"
+    }
+  }
+}
