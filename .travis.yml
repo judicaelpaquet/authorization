@@ -3,3 +3,4 @@ php:
   - '7.0'
 before_script:
   - cd /home/travis/build/judicaelpaquet/authorization
+  - composer install
