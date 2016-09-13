@@ -1,5 +1,5 @@
 services:
     judicaelpaquet_authorization_annotation:
-        class: judicaelpaquet\Authorization\Annotations\Driver\AnnotationDriver
+        class: JudicaelPaquet\AuthorizationBundle\Annotations\Driver\AnnotationDriver
         tags: [{name: kernel.event_listener, event: kernel.controller, method: onKernelController}]          #Point event
         arguments: ['@annotation_reader', '@service_container'] # Pass annotation_reader into constructor of our service
