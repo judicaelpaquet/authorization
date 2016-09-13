@@ -23,7 +23,6 @@
       "" : "judicaelpaquet\\AuthorizationBundle"
     }
   },
-  "target-dir" : "judicaelpaquet/AuthorizationBundle",
   "extra" : {
     "branch-alias" : {
       "dev-master" : "some_version-dev"
