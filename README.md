@@ -10,9 +10,20 @@ Authorization
 
 This bundle provides various tools to rapidly secure your API with single one annotation
 
+Installation
+------------
+
+Add this import in your config.yml
+
+imports:
+    - { resource: "../../../vendor/judicaelpaquet/Authorization/Resources/config/services.yml" }
 
 Documentation
 -------------
+
+you must add this line to can to use the security annotation :
+
+use JudicaelPaquet\AuthorizationBundle\Annotations\Authorization;
 
 1/ If you want juste indicate that your API is public you must write :
      * @Authorization(access="public")
