@@ -32,7 +32,7 @@ class AnnotationDriver
         if (!is_array($controller = $event->getController())) { //return if no controller
             return;
         }
-//var_dump($event->getController()[0]->listCartAction());exit;
+
         $object = new \ReflectionObject($controller[0]);
         $method = $object->getMethod($controller[1]);
 
@@ -73,6 +73,5 @@ class AnnotationDriver
         $response = new Response(json_encode($array), 401);
         $response->headers->set('Content-Type', 'application/json');
         $response->send();
-        exit;
     }
 }

@@ -1,6 +1,13 @@
 Authorization
 =============
 
+[![Build Status](https://travis-ci.org/judicaelpaquet/authorization.svg?branch=master)](https://travis-ci.org/judicaelpaquet/authorization)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/judicaelpaquet/authorization/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/judicaelpaquet/authorization/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/judicaelpaquet/authorization/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/judicaelpaquet/authorization/?branch=master)
+[![Total Downloads](https://poser.pugx.org/judicaelpaquet/authorization/downloads.svg)](https://packagist.org/judicaelpaquet/authorization/venus3)
+[![Latest Stable Version](https://poser.pugx.org/judicaelpaquet/authorization/v/stable.svg)](https://packagist.org/packages/judicaelpaquet/authorization)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/240b0572-6d68-4f92-b60d-f18356b50a96/mini.png)](https://insight.sensiolabs.com/projects/240b0572-6d68-4f92-b60d-f18356b50a96)
+
 This bundle provides various tools to rapidly secure your API with single one annotation
 
 
