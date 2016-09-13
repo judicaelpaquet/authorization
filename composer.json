@@ -2,7 +2,7 @@
   "name" : "judicaelpaquet/authorization",
   "description" : "A authorization bundle annotation",
   "type" : "symfony-bundle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors" : [{
     "name" : "Judicaël Paquet",
     "email" : "judicael.paquet@batiwiz.com"
@@ -20,7 +20,7 @@
   },
   "autoload" : {
     "psr-4" : {
-      "" : "judicaelpaquet\\AuthorizationBundle"
+      "" : "judicaelpaquet\\Authorization"
     }
   },
   "extra" : {

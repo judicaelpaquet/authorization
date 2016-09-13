@@ -1,9 +1,9 @@
 <?php
 
-namespace judicaelpaquet\AuthorizationBundle;
+namespace judicaelpaquet\Authorization;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AuthorizationBundle extends Bundle
+class Authorization extends Bundle
 {
 }

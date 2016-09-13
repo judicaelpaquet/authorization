@@ -1,10 +1,10 @@
 <?php
 
-namespace judicaelpaquet\AuthorizationBundle\Annotations\Driver;
+namespace judicaelpaquet\Authorization\Annotations\Driver;
 
 use Doctrine\Common\Annotations\Reader;
 use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
-use judicaelpaquet\AuthorizationBundle\Annotations;
+use judicaelpaquet\Authorization\Annotations;
 use Symfony\Component\HttpFoundation\Response;
 
 class AnnotationDriver
