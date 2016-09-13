@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace judicaelpaquet\Authorization\Annotations;
+namespace JudicaelPaquet\AuthorizationBundle\Annotations;
 
 /**
  * @Annotation
