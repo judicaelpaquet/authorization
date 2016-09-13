@@ -2,7 +2,7 @@
   "name" : "judicaelpaquet/authorization",
   "description" : "A authorization bundle annotation",
   "type" : "symfony-bundle",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "authors" : [{
     "name" : "Judicaël Paquet",
     "email" : "judicael.paquet@batiwiz.com"
