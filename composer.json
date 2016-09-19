@@ -19,8 +19,8 @@
     "symfony/symfony": ">=3.0.0"
   },
   "autoload" : {
-    "psr-4" : {
-      "JudicaelPaquet\\AuthorizationBundle\\" : ""
+    "psr-0" : {
+      "JudicaelPaquet\\AuthorizationBundle" : ""
     }
   },
   "extra" : {
